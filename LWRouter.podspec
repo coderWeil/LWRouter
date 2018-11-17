@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "LWRouter"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "路由"
 
   s.description  = "管理跳转的逻辑"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/weilLove/LWRouter.git", :tag => "#{s.version}" }
 
-  s.source_files  = "LWRouter/Classes", "LWRouter/Classes/*.{h,m}"
+  s.source_files  = "LWRouter/Classess", "LWRouter/Classess/*.{h,m}"
 
   s.frameworks = "UIKit", "Foundation"
 
